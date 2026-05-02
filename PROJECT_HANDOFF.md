@@ -124,3 +124,7 @@ Discovery is complete for the first version. The first UConnect landing page has
 - Modern minimalist buttons plus subtle hover and scroll animations.
 
 The interest form is not connected to the database yet. The next step is to connect the form so submissions can be saved, then build standalone About and Getting Started pages.
+
+## Deployment Note
+
+The project build script uses `next build --webpack` because the Webpack production build has been verified locally. This avoids the Turbopack build path that caused local build-worker errors.

@@ -34,6 +34,7 @@ UConnect's purpose is to simplify the U.S. study pathway so students can underst
 - Keep this `AGENTS.md` file up to date as the project grows.
 - Write or update a handoff document at the end of every working session.
 - If Next.js behavior is unclear, read the relevant local docs in `node_modules/next/dist/docs/` because this project uses Next.js 16.
+- The production build script currently uses `next build --webpack` because this path has been verified locally and avoids the Turbopack worker issue seen during development.
 
 ## Planned Pages
 
